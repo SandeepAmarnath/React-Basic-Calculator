@@ -1,0 +1,9 @@
+.Display {
+  text-align: right;
+  border: 2px solid #ccc;
+  /* background: white; */
+  background: rgba(226, 226, 226, 1);
+  width: 20%;
+  margin: 0 40% 0 40%;
+  padding: 40px;
+}
