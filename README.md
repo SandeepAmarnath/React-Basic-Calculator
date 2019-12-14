@@ -11,4 +11,4 @@ and then cd into the project folder and run
 
 
 Try it here
-https://sandeepamarnath.github.io/React-Basic-calculator/
+https://sandeepamarnath.github.io/React-Basic-Calculator/
