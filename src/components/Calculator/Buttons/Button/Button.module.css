@@ -1,8 +1,23 @@
 button {
   font-style: italic;
-  font-size: large;
+  font-size: 1.2em;
   margin: 10px;
   width: 25%;
   height: 60px;
   font-weight: 700;
+}
+.erase {
+  background-color: rgb(201, 85, 65);
+  color: aliceblue;
+  font-size: larger;
+}
+.get {
+  background-color: rgb(11, 168, 11);
+  color: aliceblue;
+  font-size: 1.4em;
+}
+.operation {
+  background-color: rgb(11, 168, 168);
+  color: aliceblue;
+  font-size: 1.3em;
 }

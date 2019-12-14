@@ -1,7 +1,55 @@
 .Calculator {
   width: 20%;
-  margin: 10% 40% 0 40%;
+  margin: 3% 40% 0 40%;
   border: 2px solid rgb(34, 106, 139);
   border-radius: 20px;
   background-color: rgb(5, 10, 10);
+}
+
+@media (min-width: 100px) and (min-height: 400px) {
+  .Calculator {
+    width: 90%;
+    margin: 1% 5% 0 5%;
+    /* background-color: #fff; */
+  }
+}
+
+@media (min-width: 200px) and (min-height: 400px) {
+  .Calculator {
+    width: 80%;
+    margin: 3% 10% 0 10%;
+    /* background-color: #fff; */
+  }
+}
+
+@media (min-width: 400px) and (min-height: 400px) {
+  .Calculator {
+    width: 60%;
+    margin: 3% 20% 0 20%;
+    /* background-color: #fff; */
+  }
+}
+
+@media (min-width: 600px) and (min-height: 400px) {
+  .Calculator {
+    width: 40%;
+    margin: 3% 30% 0 30%;
+    /* background-color: #fff; */
+  }
+}
+
+@media (min-width: 800px) and (min-height: 400px) {
+  .Calculator {
+    width: 30%;
+    margin: 3% 35% 0 35%;
+    /* background-color: #fff; */
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 400px) {
+  .Calculator {
+    width: 20%;
+    margin: 3% 40% 0 40%;
+    /* background-color: #fff; */
+  }
 }
