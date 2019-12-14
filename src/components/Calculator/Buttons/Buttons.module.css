@@ -1,0 +1,9 @@
+.ButtonPanel {
+  /* background: rgba(235, 233, 249, 1); */
+  /* background: rgba(242, 246, 248, 1); */
+  margin: 20px 0 20px 0;
+  padding: 20px 0 20px 0;
+  background-color: antiquewhite;
+  width: 100%;
+  border: 1px solid green;
+}

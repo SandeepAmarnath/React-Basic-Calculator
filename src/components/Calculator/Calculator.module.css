@@ -1,0 +1,7 @@
+.Calculator {
+  width: 20%;
+  margin: 10% 40% 0 40%;
+  border: 2px solid rgb(34, 106, 139);
+  border-radius: 20px;
+  background-color: rgb(5, 10, 10);
+}

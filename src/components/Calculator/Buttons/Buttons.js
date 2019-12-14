@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Button from "../Button/Button";
+import Button from "./Button/Button";
 import classes from "./Buttons.module.css";
 
 const buttons = (props) => {

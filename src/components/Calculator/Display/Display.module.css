@@ -1,0 +1,7 @@
+.Display {
+  text-align: right;
+  border: 2px solid #ccc;
+  background: rgb(170, 172, 187);
+  padding: 40px;
+  font-size: 2em;
+}

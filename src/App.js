@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import Display from "./components/Display/Display";
-import Buttons from "./components/Buttons/Buttons";
+import Calculator from "./components/Calculator/Calculator";
 
 class App extends Component {
   onClickHandler = (value) => {
@@ -10,10 +9,8 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <h1 style={{ textAlign: "center" }}>Calculator</h1>
-        <Display value="0.89" />
-        <Buttons clicked={this.onClickHandler} />
+      <div className="App">
+        <Calculator />
       </div>
     );
   }
