@@ -11,11 +11,32 @@ class Calculator extends Component {
   calculateString = "";
 
   onClickHandler = (input) => {
-    if (input === "mod") {
-      input = "%";
+    if (
+      input === "%" ||
+      input === "=" ||
+      input === "*" ||
+      input === "+" ||
+      input === "-" ||
+      input === "/"
+    ) {
+      if (this.calculateString === "") {
+        this.setState({ valueOnScreen: 0 });
+        return;
+      }
     }
+
+    if (input === "%") {
+      this.calculateString = this.calculateString.replace(/^0+/, "");
+      let temp = eval(this.calculateString);
+      temp = temp / 100;
+      this.setState({ valueOnScreen: String(temp) });
+      return;
+    }
+
+    // console.log();
     if (input === "=") {
-      this.calculateString = this.calculateString.replace(/^(?!0$)0+/, "");
+      // this.calculateString = this.calculateString.replace(/^(?!0$)0+/, "");
+      this.calculateString = this.calculateString.replace(/^0+/, "");
       let result = eval(this.calculateString);
 
       if (result % 1 !== 0) {

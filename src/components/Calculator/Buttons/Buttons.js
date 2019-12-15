@@ -26,7 +26,7 @@ const buttons = (props) => {
         <div>
           <Button value="9" click={props.clicked} />
           <Button value="." click={props.clicked} />
-          <Button value="mod" click={props.clicked} operation />
+          <Button value="%" click={props.clicked} operation />
         </div>
 
         <div>
